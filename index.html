@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <meta name="author" content="Mindy Johnston">
     <meta name="description" content="Nordhaven Forest Cats | A Northern Haven for Norwegian Forest Cats. Learn about our breeding program, meet our kittens, play our guessing game to match with the perfect feline friend, and apply for one of our adorable kittens today!">
-
     <title>Nordhaven Forest Cats | Norwegian Forest Cat Breeder</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
+    <a class="skip-link" href="#about">Skip to Main Content</a>
     <header>
         <h1 id="logo">Welcome to Nordhaven Forest Cats</h1>
         <nav>
@@ -35,13 +36,13 @@
         <section id="kittens">
             <h2>Meet Our Kittens</h2>
             <p>Click a kitten’s name to learn more about their personality.</p>
-            <ul>
-                <li><a href="#kitten1">Harry</a></li>
-                <li><a href="#kitten2">Hermione</a></li>
-                <li><a href="#kitten3">Luna</a></li>
-                <li><a href="#kitten4">Malfoy</a></li>
-                <li><a href="#kitten5">Ron</a></li>
-            </ul>
+            <div class="kitten-buttons">
+                <button data-kitten="harry">Harry</button>
+                <button data-kitten="hermione">Hermione</button>
+                <button data-kitten="luna">Luna</button>
+                <button data-kitten="malfoy">Malfoy</button>
+                <button data-kitten="ron">Ron</button>
+            </div>
             <div id="kitten-profiles">
                 <section id="kitten1">
                     <h3>Harry</h3>
